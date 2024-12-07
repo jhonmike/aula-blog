@@ -1,8 +1,81 @@
-# React + Vite
+# Viteblog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **Viteblog**, o repositório do projeto desenvolvido na playlist de vídeo-aulas do canal [Commitando](https://www.youtube.com/@Commitando)! 🎥 Este projeto é um template de blog criado com foco em desenvolvimento front-end, utilizando tecnologias modernas e boas práticas.
 
-Currently, two official plugins are available:
+## 📚 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Viteblog** é uma aplicação front-end criada com **React** e configurada com **Vite** para oferecer uma experiência de desenvolvimento rápida e eficiente. Este projeto faz parte de uma série de aulas que exploram desde a configuração inicial do ambiente de desenvolvimento até a integração com APIs back-end.
+
+### ✨ Tecnologias utilizadas
+
+- **[React](https://reactjs.org/):** Biblioteca para criação de interfaces de usuário.
+- **[Vite](https://vitejs.dev/):** Ferramenta para construção e desenvolvimento rápido de aplicações.
+- **[ViTest](https://vitest.dev/):** Framework de testes unitários leve e rápido.
+- **[AntD](https://ant.design/):** Biblioteca de componentes visuais.
+- **[Axios](https://axios-http.com/):** Cliente HTTP para integração com APIs back-end.
+
+---
+
+## 🚀 Como executar o projeto
+
+Siga os passos abaixo para configurar e rodar o projeto localmente:
+
+### 1️⃣ Clonar o repositório
+
+```sh
+git clone https://github.com/jhonmike/vite-blog.git
+cd vite-blog
+```
+
+### 2️⃣ Instalar as dependências
+
+```sh
+npm install
+```
+
+### 3️⃣ Rodar o servidor de desenvolvimento
+
+```sh
+npm run dev
+```
+
+Acesse a aplicação em: [http://localhost:5173/](http://localhost:5173/).
+
+### 4️⃣ Executar os testes
+
+```sh
+npm run test
+```
+
+Isso executará todos os testes unitários configurados no projeto.
+
+---
+
+## 🎥 Playlist de vídeo-aulas
+
+Acompanhe todo o desenvolvimento deste projeto na playlist oficial do canal Commitando.
+
+---
+
+## 📂 Estrutura do projeto
+
+```plaintext
+vite-blog/
+├── src/
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Páginas da aplicação
+│   ├── services/          # Configuração de chamadas HTTP (Axios)
+├── public/                # Arquivos estáticos
+├── package.json           # Configurações e dependências
+└── vite.config.js         # Configuração do Vite
+```
+
+## ❤️ Sobre o canal Commitando
+
+No canal Commitando, compartilhamos conhecimento sobre desenvolvimento de software com foco em boas práticas, ferramentas modernas e produtividade no dia a dia de um desenvolvedor. Inscreva-se e faça parte dessa jornada de aprendizado: [https://www.youtube.com/@Commitando](https://www.youtube.com/@Commitando).
+
+---
+
+## 📬 Contribuição
+
+Sinta-se à vontade para abrir issues ou enviar PRs. Toda ajuda é bem-vinda! 😊
