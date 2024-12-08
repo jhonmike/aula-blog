@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primeiro Post",
+      "summary": "Este é o resumo do primeiro post",
+      "author": "João",
+      "date": "01/01/2021"
+    },
+    {
+      "id": 2,
+      "title": "Segundo Post",
+      "summary": "Este é o resumo do segundo post",
+      "author": "Maria",
+      "date": "02/01/2021"
+    },
+    {
+      "id": 3,
+      "title": "Terceiro Post",
+      "summary": "Este é o resumo do terceiro post",
+      "author": "José",
+      "date": "03/01/2021"
+    }
+  ]
+}
